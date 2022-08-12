@@ -341,18 +341,18 @@ class NepaliDateFormat {
   String _monthString(int month, {bool short = false}) {
     assert(month > 0 && month < 13);
     final monthsInEnglish = [
-      _Month('Baishakh', 'Bai'),
-      _Month('Jestha', 'Jes'),
-      _Month('Ashadh', 'Asar'),
-      _Month('Shrawan', 'Shr'),
-      _Month('Bhadra', 'Bha'),
-      _Month('Ashwin', 'Ash'),
-      _Month('Kartik', 'Kar'),
-      _Month('Mangsir', 'Marg'),
-      _Month('Poush', 'Pou'),
-      _Month('Magh', 'Mag'),
-      _Month('Falgun', 'Fal'),
-      _Month('Chaitra', 'Cha'),
+      _Month('January', 'Jan'),
+      _Month('February', 'Feb'),
+      _Month('March', 'Mar'),
+      _Month('April', 'Apr'),
+      _Month('May', 'May'),
+      _Month('June', 'Jun'),
+      _Month('July', 'Jul'),
+      _Month('August', 'Aug'),
+      _Month('September', 'Sep'),
+      _Month('October', 'Oct'),
+      _Month('November', 'Nov'),
+      _Month('December', 'Dec'),
     ];
     final monthsInNepali = [
       _Month('बैशाख', 'बै'),
